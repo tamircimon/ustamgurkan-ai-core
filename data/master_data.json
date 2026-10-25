@@ -1,0 +1,97 @@
+{
+  "systemMeta": {
+    "version": "1.0.0",
+    "businessEntity": "HomeAndConstructionBusiness",
+    "name": "Ustam Gürkan",
+    "whatsappNumber": "905000000000",
+    "baseCurrency": "TRY",
+    "areasServed": [
+      {
+        "@type": "AdministrativeArea",
+        "name": "Altıeylül",
+        "neighborhoods": ["Bahçelievler", "Plevne", "Gümüşçeşme", "Kasaplar", "Hasan Basri Çantay", "Dinkçiler"]
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Karesi",
+        "neighborhoods": ["Paşaalanı", "Sakarya", "Ali Hikmet Paşa", "Kuva-i Milliye", "Toygar"]
+      }
+    ]
+  },
+  "categories": [
+    { "id": "cat_dograma", "name": "Doğrama ve Cam Sistemleri", "gbpMapping": "Pencere Kurulum Hizmeti" },
+    { "id": "cat_golgeleme", "name": "Gölgeleme Sistemleri", "gbpMapping": "Panjur Mağazası" },
+    { "id": "cat_kapi", "name": "Kapı Sistemleri", "gbpMapping": "Kapı Tedarikçisi" }
+  ],
+  "services": [
+    {
+      "id": "srv_pimapen_ispanyolet",
+      "categoryId": "cat_dograma",
+      "slug": "pimapen-ispanyolet-degisimi",
+      "title": "Pimapen İspanyolet (Kilit) Değişimi",
+      "aiSearchEntity": {
+        "symptoms": [
+          "pencere kolu boşa dönüyor",
+          "pimapen tam kapanmıyor",
+          "kol fırıldak gibi dönüyor",
+          "kilit dili içeride kaldı"
+        ],
+        "diagnosis": "İç kilit mekanizması (İspanyolet) dişli dişlilerinin parçalanması veya dağılması.",
+        "treatment": "Mevcut mekanizmanın sökülerek çelik gövdeli yeni ispanyolet montajı ve kanat gönye ayarı.",
+        "priceRange": { "min": 400, "max": 750 },
+        "averageDurationMinutes": 25,
+        "reserveActionTemplate": "https://wa.me/{whatsappNumber}?text=Merhaba,%20{area}%20bölgesinden%20Pimapen%20kilit%20arızası%20için%20ulaşıyorum."
+      },
+      "uiData": {
+        "badge": "ÇELİK GÖVDELİ MEKANİZMA",
+        "shortDesc": "Kolun boşa dönmesi, pencerenin kapanmaması durumunda iç kilit mekanizmasının orijinaliyle değişimi."
+      }
+    },
+    {
+      "id": "srv_panjur_kordon",
+      "categoryId": "cat_golgeleme",
+      "slug": "panjur-ipi-kordon-degisimi",
+      "title": "Manuel Panjur İpi (Kordon) Değişimi",
+      "aiSearchEntity": {
+        "symptoms": [
+          "panjur ipi koptu",
+          "panjur ipi tiftiklendi",
+          "ipi çekiyorum panjur kalkmıyor",
+          "panjur kutuya düştü kilitlendi"
+        ],
+        "diagnosis": "UV ışınları ve sürtünme kaynaklı kordon (ip) çürümesi veya makara kasnak dağılması.",
+        "treatment": "Kopan ipin veya arızalı makaranın sökülüp, güneşe dayanıklı orijinal kordonla değiştirilmesi.",
+        "priceRange": { "min": 350, "max": 600 },
+        "averageDurationMinutes": 20,
+        "reserveActionTemplate": "https://wa.me/{whatsappNumber}?text=Merhaba,%20{area}%20bölgesinden%20kopan%20panjur%20ipi%20değişimi%20için%20ulaşıyorum."
+      },
+      "uiData": {
+        "badge": "UV DAYANIMLI ÖRGÜ",
+        "shortDesc": "Kopmuş, aşınmış veya sarma mekanizması bozulmuş manuel panjur kayışının yenilenmesi."
+      }
+    },
+    {
+      "id": "srv_camkapi_pompa",
+      "categoryId": "cat_kapi",
+      "slug": "cam-kapi-motor-pompa-degisimi",
+      "title": "Cam Kapı Zemin Motoru (Pompa) Değişimi",
+      "aiSearchEntity": {
+        "symptoms": [
+          "cam kapı çok hızlı çarpıyor",
+          "cam kapı yavaş kapanmıyor",
+          "dükkan kapısı yere sürtüyor",
+          "cam kapı motoru yağ kaçırıyor"
+        ],
+        "diagnosis": "Zemin hidrolik pompasının (motorun) basınç keçelerinin patlaması ve yağ boşaltması.",
+        "treatment": "Eski arızalı motorun sökülerek orijinal Birsan/Gülsan marka hidrolik motorla değişimi ve hız kalibrasyonu.",
+        "priceRange": { "min": 2500, "max": 4000 },
+        "averageDurationMinutes": 45,
+        "reserveActionTemplate": "https://wa.me/{whatsappNumber}?text=Merhaba,%20{area}%20bölgesinden%20hızlı%20çarpan%20cam%20kapı%20motoru%20değişimi%20için%20ulaşıyorum."
+      },
+      "uiData": {
+        "badge": "HİDROLİK KALİBRASYON",
+        "shortDesc": "Hızlı çarpan veya yere sürten temperli cam kapıların zemin motoru (pompa) değişimi ve hız ayarı."
+      }
+    }
+  ]
+}

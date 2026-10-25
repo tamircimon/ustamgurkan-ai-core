@@ -1,0 +1,3 @@
+Title: Ustam Gürkan AI Intelligence API
+Description: Balıkesir Altıeylül ve Karesi bölgeleri için usta, tamir, montaj fiyatları ve arıza semptom-çözüm verileri.
+Data: /api/ai

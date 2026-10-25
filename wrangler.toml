@@ -1,0 +1,7 @@
+name = "ustamgurkan-ai-core"
+compatibility_date = "2026-10-26"
+pages_build_output_dir = ".vercel/output/static"
+
+[[kv_namespaces]]
+binding = "MASTER_DATA"
+id = "05fca361efe145d9acc470a0e19efb1d"
